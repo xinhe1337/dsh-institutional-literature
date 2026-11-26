@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Literature download via institutional access",
+    "description": "Fetches subscribed journal PDFs through your campus or institutional IP with the real local browser, via a literature_fetch tool, then files them into Zotero.",
+    "detail": "docs/DETAIL.md"
+  }
+}

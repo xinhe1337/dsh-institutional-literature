@@ -1,0 +1,12 @@
+- insert:
+    - id: institutional-browser-access
+      name: '@local/institutional-browser-access'
+      config:
+        # 解释器：留 python 会依次尝试 DSH_PYTHON、PATH 上的 python/python3、
+        # 以及 DSH 自带运行时；也可直接写死绝对路径。
+        pythonPath: python
+        spacing: 6
+        cooldownEvery: 8
+        cooldown: 75
+        timeout: 50
+        skipPrefix: ['10.1080', '10.1155']

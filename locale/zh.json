@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "基于机构权限的文献下载",
+    "description": "用本机真实浏览器走校园网/机构 IP 下载订阅期刊的全文 PDF，提供 literature_fetch 工具并归档到 Zotero。",
+    "detail": "docs/DETAIL.md"
+  }
+}
