@@ -1,5 +1,9 @@
 # 基于机构权限的文献下载（DSH 插件）
 
+> **What** — A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that adds a `literature_fetch` tool and an `institutional-browser-access` skill for pulling journal PDFs.
+> **Why** — Campus subscriptions are granted by egress IP, and those sites reject plain HTTP clients; so it drives a real headed Edge/Chrome on this machine instead of re-implementing the request.
+> **Install** — `plugin_manager install_bundle target="<absolute path to this directory>"`, or **Plugins → Add plugin** in the desktop app. Needs Edge or Chrome, plus Python 3.
+
 一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件：用**本机真实浏览器**走校园网/机构 IP 的订阅权限，把期刊论文的全文 PDF 取回来，并附带 Zotero 归档流程。
 
 它同时贡献两样东西：
